@@ -1,0 +1,4604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dijitall Case Study</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="topNav"></div>
+      <div class="header">
+        <div class="left-side">
+          <h5>
+            &#60; &nbsp; 250Tl + alışverişinizde Ücretsiz Kargo &nbsp; &#62;
+          </h5>
+        </div>
+        <div class="right-side">
+          <ul>
+            <li>
+              <img src="./assets/truck.png" alt="" />
+              Sipariş Takip
+            </li>
+            <li>
+              |&nbsp;
+              <img src="./assets/question.png" alt="" />
+              Yardım & Destek
+            </li>
+            <li>
+              |&nbsp;
+              <img src="/assets/phone.png" alt="" />
+              0850 304 94 57
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- middle header -->
+    <nav class="navbar">
+      <div class="item search right">
+        <div class="search-group">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder="Aradığınız ürün veya kategoriyi yazınız"
+          />
+        </div>
+        <button class="btn">ARA</button>
+      </div>
+      <div>
+        <ul class="rightItems">
+          <li>
+            <img src="./assets/person.png" alt="" />
+            Hesabım
+          </li>
+          <li>
+            <img src="./assets/heart.png" alt="" />
+            Favorilerim
+          </li>
+          <li>
+            <img src="./assets/shop.png" alt="" />
+            Sepetim
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- bottom header -->
+    <div class="header-bottom">
+      <ul>
+        <li>
+          Yeni Sezon
+          <i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li>
+          Kadın
+          <i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li>
+          Erkek
+          <i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li>
+          Çocuk
+          <i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li>
+          Ayakkabı & Çanta
+          <i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li>
+          İndirim
+          <i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <button class="brandBtn">Markalar</button>
+      </ul>
+    </div>
+
+    <!-- Head Slider -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="assets/Rectangle 23.png" style="width: 100%" />
+        <div class="slider-desc">
+          <div>KADIN GİYİMDE</div>
+          <div class="slider-indirim">
+            <div class="slider-perc">
+              <span>%</span>
+              <span class="slider-amount">30</span>
+            </div>
+            <div class="slider-varan">
+              <span>'A VARAN</span>
+              <span>İNDİRİMLER</span>
+            </div>
+          </div>
+        </div>
+        <div class="slider-alisveris">ALIŞVERİŞE BAŞLA</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="assets/Rectangle 23.png" style="width: 100%" />
+        <div class="slider-desc">
+          <div>ERKEK GİYİMDE</div>
+          <div class="slider-indirim">
+            <div class="slider-perc">
+              <span>%</span>
+              <span class="slider-amount">25</span>
+            </div>
+            <div class="slider-varan">
+              <span>'A VARAN</span>
+              <span>İNDİRİMLER</span>
+            </div>
+          </div>
+        </div>
+        <div class="slider-alisveris">ALIŞVERİŞE BAŞLA</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="assets/Rectangle 23.png" style="width: 100%" />
+        <div class="slider-desc">
+          <div>ÇOCUK GİYİMDE</div>
+          <div class="slider-indirim">
+            <div class="slider-perc">
+              <span>%</span>
+              <span class="slider-amount">70</span>
+            </div>
+            <div class="slider-varan">
+              <span>'A VARAN</span>
+              <span>İNDİRİMLER</span>
+            </div>
+          </div>
+        </div>
+        <div class="slider-alisveris">ALIŞVERİŞE BAŞLA</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- The dots/circles -->
+      <div class="slider-badget">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+
+    <!-- Tab Slider -->
+    <div class="wrapper2">
+      <input type="radio" name="slider" id="mavi" />
+      <input type="radio" name="slider" id="jones" />
+      <input type="radio" name="slider" checked id="puma" />
+      <input type="radio" name="slider" id="skechers" />
+      <input type="radio" name="slider" id="loft" />
+      <input type="radio" name="slider" id="polo" />
+      <nav>
+        <label for="mavi" class="mavi"
+          ><img src="assets/mavi.png" alt=""
+        /></label>
+        <label for="jones" class="jones"
+          ><img src="assets/jack-jones-logo.png" alt=""
+        /></label>
+        <label for="puma" class="puma"
+          ><img src="assets/pumalogo.png" alt=""
+        /></label>
+        <label for="skechers" class="sketchers"
+          ><img src="assets/skechers.png" alt=""
+        /></label>
+        <label for="loft" class="loft"
+          ><img src="assets/loft.png" alt=""
+        /></label>
+        <label for="polo" class="polo"
+          ><img src="assets/polo.png" alt=""
+        /></label>
+        <label for="mavi" class="mavi"
+          ><img src="assets/mavi.png" alt=""
+        /></label>
+        <div class="slider"></div>
+      </nav>
+
+      <!-- Urun Category -->
+      <div class="urun-category">
+        <p>
+          <span class="urun-cat-yeni">YENİ GELENLER</span> |
+          <span class="urun-cat-old">TREND ÜRÜNLER</span>
+        </p>
+      </div>
+
+      <section>
+        <div class="content2 content-2a">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content2 content-2b">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content2 content-2c">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content2 content-2d">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content2 content-2e">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content2 content-2f">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Giyim -->
+    <div class="giyim">
+      <div class="giyim-gender">
+        <img src="assets/leftBox.png" alt="" />
+        <div class="giyim-types">
+          <div>üst giyim</div>
+          <div>alt giyim</div>
+          <div>dış giyim</div>
+          <div>aksesuar</div>
+        </div>
+      </div>
+      <div class="giyim-gender">
+        <img src="assets/midBox.png" alt="" />
+        <div class="giyim-types">
+          <div>üst giyim</div>
+          <div>alt giyim</div>
+          <div>dış giyim</div>
+          <div>aksesuar</div>
+        </div>
+      </div>
+      <div class="giyim-gender">
+        <img src="assets/rightBox.png" alt="" />
+        <div class="giyim-types">
+          <div>üst giyim</div>
+          <div>alt giyim</div>
+          <div>dış giyim</div>
+          <div>aksesuar</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Clothes -->
+    <div class="clothes">
+      <div class="clothes-types">
+        <img src="assets/Layer 1.png" alt="" />
+        <div class="clothes-desc">T-Shirt Trendi</div>
+      </div>
+      <div class="clothes-types">
+        <img src="assets/Layer 2.png" alt="" />
+        <div class="clothes-desc">Kadın Jean</div>
+      </div>
+      <div class="clothes-types">
+        <img src="assets/938.png" alt="" />
+        <div class="clothes-desc">Kadın Çanta</div>
+      </div>
+      <div class="clothes-types">
+        <img src="assets/Layer 3.png" alt="" />
+        <div class="clothes-desc">Minik Ayaklar</div>
+      </div>
+    </div>
+
+    <!-- Afişler -->
+    <div class="afisler">
+      <img src="assets/Rectangle 12.png" alt="" />
+      <div class="inner-text">
+        <img src="assets/mavi.png" alt="" />
+        <div class="afisler-indirim">
+          <div class="afisler-sepette">SEPETTE</div>
+          <div class="afisler-price">
+            <div class="afisler-yuzde">%<span>20</span></div>
+            <div class="afisler-varan">
+              <div>'YE VARAN</div>
+              <div>İNDİRİMLER</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- loft and jones banners -->
+    <div class="loftS">
+      <!-- loft row-->
+      <div class="loft-row">
+        <div class="loft-box cover">
+          <img class="box-bg" src="assets/Layer 11.png" alt="" />
+          <div class="loft-indirim">
+            <div class="loft-sepette">YENİ SEZON ÜRÜNLERDE</div>
+            <div class="loft-price">
+              <div class="loft-yuzde">%<span>60</span></div>
+              <div class="loft-varan">
+                <div>'YE VARAN</div>
+                <div>İNDİRİMLER</div>
+              </div>
+            </div>
+          </div>
+          <img id="loft-logo" src="assets/loft_b.png" alt="" />
+        </div>
+        <div class="jones-box cover">
+          <img class="box-bg" src="assets/Screenshot.png" alt="" />
+          <div class="jones-indirim">
+            <div class="jones-sepette">SEPETTE</div>
+            <div class="jones-price">
+              <div class="jones-yuzde">%<span>40</span></div>
+              <div class="jones-varan">
+                <div>'YE VARAN</div>
+                <div>İNDİRİMLER</div>
+              </div>
+            </div>
+          </div>
+          <img id="jones-logo" src="assets/jack-jones-logo.png" alt="" />
+        </div>
+      </div>
+      <!-- empty row -->
+      <div class="loft-row">
+        <div class="cover">
+          <img class="box-bg" src="assets/Rectangle 558 copy.png" alt="" />
+        </div>
+        <div class="cover">
+          <img class="box-bg" src="assets/Rectangle 558 copy.png" alt="" />
+        </div>
+      </div>
+      <!-- text row -->
+      <div class="loft-row">
+        <div class="cover text-box">
+          <span> ERKEK</span>
+          <u>Koleksiyonu Keşfedin</u>
+        </div>
+        <div class="cover text-box">
+          <span> KADIN</span>
+          <u>Koleksiyonu Keşfedin</u>
+        </div>
+      </div>
+    </div>
+
+    <!-- Puma -->
+    <div class="pumaS">
+      <img class="puma-bg" src="assets/puma.png" alt="" />
+      <img class="plogo" src="assets/plogo.png" alt="" />
+      <div class="types">
+        <div>ERKEK</div>
+        <div>KADIN</div>
+        <div>ÇOCUK</div>
+      </div>
+    </div>
+
+    <!-- Ayakkabı -->
+    <div class="ayakkabı">
+      <div class="ayakkabı-indirim">
+        <div class="ayakkabı-tekil">
+          <img src="assets/ayakkabı1.png" alt="" />
+          <div class="ayakkabı-desc">
+            <span>Mavi Erkek Gravity Baskılı T shirt</span>
+            <div class="ayakkabı-fiyat">
+              <div class="ayakkabı-yüzde">
+                <span>%30</span>
+                <span>indirim</span>
+              </div>
+              <div class="ayakkabı-para">
+                <span class="para-old">165,00TL</span>
+                <span class="para-new">115,50TL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ayakkabı-tekil">
+          <img src="assets/ayakkabı2.png" alt="" />
+          <div class="ayakkabı-desc">
+            <span>Mavi Erkek Gravity Baskılı T shirt</span>
+            <div class="ayakkabı-fiyat">
+              <div class="ayakkabı-yüzde">
+                <span>%30</span>
+                <span>indirim</span>
+              </div>
+              <div class="ayakkabı-para">
+                <span class="para-old">165,00TL</span>
+                <span class="para-new">115,50TL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ayakkabı-tekil">
+          <img src="assets/ayakkabı3.png" alt="" />
+          <div class="ayakkabı-desc">
+            <span>Mavi Erkek Gravity Baskılı T shirt</span>
+            <div class="ayakkabı-fiyat">
+              <div class="ayakkabı-yüzde">
+                <span>%30</span>
+                <span>indirim</span>
+              </div>
+              <div class="ayakkabı-para">
+                <span class="para-old">165,00TL</span>
+                <span class="para-new">115,50TL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="ayakkabı-tekil">
+          <img src="assets/ayakkabı4.png" alt="" />
+          <div class="ayakkabı-desc">
+            <span>Mavi Erkek Gravity Baskılı T shirt</span>
+            <div class="ayakkabı-fiyat">
+              <div class="ayakkabı-yüzde">
+                <span>%30</span>
+                <span>indirim</span>
+              </div>
+              <div class="ayakkabı-para">
+                <span class="para-old">165,00TL</span>
+                <span class="para-new">115,50TL</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ayakkabı-right">
+        <div class="ayakkabı-cogul">
+          <img src="assets/ayakkabı5.png" alt="" />
+          <div class="cogul-desc">
+            <span>Lorem ipsum dolor sit amet</span>
+            <span
+              >Sed quis enim ac leo finibus tincidunt. Sed eu foucibus nisi.
+              Nulla facillisi. Suspendisse at enim leo. Mauris dignissim urna
+              quis finibus fermentum. Vestibulum ultrices mollis eros in
+              mollis.</span
+            >
+          </div>
+        </div>
+        <div class="ayakkabı-futbol">
+          <img src="assets/ayakkabı6.png" alt="" />
+          <div class="futbol-desc">
+            <span>Aliquam non eros leo</span>
+            <span
+              >Aliquam consequat, nunc non efficitur maximus, arci purus
+              convallis massa, eu tincidunt tortor sapien et metus. Pellentesque
+              dignissim accumsan lectus, quis placerat magna bibendum
+              vitae</span
+            >
+          </div>
+          <div class="futbol-button">ALIŞVERİŞE BAŞLA</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sneakers -->
+    <div class="sneakers">
+      <img src="assets/sneakers.png" alt="" />
+      <div class="sneakers-types">
+        <div>ERKEK</div>
+        <div>KADIN</div>
+        <div>ÇOCUK</div>
+      </div>
+    </div>
+
+    <!-- Çok Satanlar -->
+    <div class="urun-category">
+      <p><span class="urun-cat-yeni">ÇOK SATANLAR</span></p>
+    </div>
+
+    <!-- Categories -->
+    <div class="wrapper">
+      <input type="radio" name="slider2" checked id="günlük" />
+      <input type="radio" name="slider2" id="spor" />
+      <input type="radio" name="slider2" id="kadin" />
+      <input type="radio" name="slider2" id="erkek" />
+      <input type="radio" name="slider2" id="cocuk" />
+      <input type="radio" name="slider2" id="ayakkabi" />
+      <input type="radio" name="slider2" id="canta" />
+      <input type="radio" name="slider2" id="aksesuar" />
+      <nav>
+        <div class="categories">
+          <label for="günlük" class="günlük"
+            ><div class="categories-box">
+              <img src="assets/tshirt.png" alt="" class="size" />
+              <span>GÜNLÜK GİYİM</span>
+            </div></label
+          >
+          <label for="spor" class="spor"
+            ><div class="categories-box">
+              <img src="assets/basketball.png" alt="" class="size" />
+              <span>SPOR</span>
+            </div></label
+          >
+          <label for="kadin" class="kadin"
+            ><div class="categories-box">
+              <img src="assets/businesswoman.png" alt="" class="size" />
+              <span>KADIN</span>
+            </div></label
+          >
+          <label for="erkek" class="erkek"
+            ><div class="categories-box">
+              <img src="assets/man.png" alt="" class="size" />
+              <span>ERKEK</span>
+            </div></label
+          >
+          <label for="cocuk" class="cocuk"
+            ><div class="categories-box">
+              <img src="assets/baby.png" alt="" class="size" />
+              <span>ÇOCUK</span>
+            </div></label
+          >
+          <label for="ayakkabi" class="ayakkabi"
+            ><div class="categories-box">
+              <img src="assets/shoes.png" alt="" class="size" />
+              <span>AYAKKABI</span>
+            </div></label
+          >
+          <label for="canta" class="canta"
+            ><div class="categories-box">
+              <img src="assets/bag.png" alt="" class="size" />
+              <span>ÇANTA</span>
+            </div></label
+          >
+          <label for="aksesuar" class="aksesuar"
+            ><div class="categories-box">
+              <img src="assets/diamond.png" alt="" class="size" />
+              <span>AKSESUAR</span>
+            </div></label
+          >
+        </div>
+        <div class="slider"></div>
+      </nav>
+      <section>
+        <div class="content1 content-1a">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">MAVİ</div>
+                    <div class="tab-desc">
+                      <span>Mavi Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content1 content-1b">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Jack & Jones</div>
+                    <div class="tab-desc">
+                      <span>Jack & Jones Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content1 content-1c">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Puma</div>
+                    <div class="tab-desc">
+                      <span>Puma Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content1 content-1d">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Skechers</div>
+                    <div class="tab-desc">
+                      <span>Skechers Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content1 content-1e">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Loft</div>
+                    <div class="tab-desc">
+                      <span>Loft Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content1 content-1f">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content1 content-1g">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content1 content-1h">
+          <div class="carousel-wrapper">
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                    <div class="tab-button">
+                      <div class="tab-incele">İNCELE</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 10.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 7.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 8.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div>
+                  <div class="tab-image">
+                    <img src="assets/Layer 9.png" alt="" />
+                    <div class="image-new">YENİ</div>
+                    <i class="fa-sharp fa-regular fa-heart image-heart"></i>
+                  </div>
+                  <div class="tab-info">
+                    <div class="tab-brand">Polo</div>
+                    <div class="tab-desc">
+                      <span>Polo Erkek Gravity Baskılı T shirt</span>
+                      <span>MM-JP98654</span>
+                    </div>
+                    <div class="tab-price">
+                      <div class="prices">
+                        <span class="uprice-old">165,00TL</span>
+                        <span class="uprice-new">115,50TL</span>
+                      </div>
+                      <div class="tab-perc">%30</div>
+                    </div>
+                    <div class="tab-color">
+                      <div class="tab-colors">
+                        <span>Renk: </span>
+                        <div class="white"></div>
+                        <div class="red"></div>
+                        <div class="blue"></div>
+                        <div class="brown"></div>
+                      </div>
+                      <div class="kargo">KARGO BEDAVA</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- bottom navigation -->
+    <div class="bottom-nav">
+      <div class="line">
+        <div class="box">
+          <img src="assets/emoji.png" alt="" class="size" />
+          <span>MUTLU MÜŞTERİLER</span>
+          <p>
+            Satın almış olduğunuz ürünler markafill.com garantisinde olup
+            <strong>100% orjinaldir.</strong>
+          </p>
+        </div>
+        <div class="box">
+          <img src="assets/random.png" alt="" class="size" />
+          <span>İADE&DEĞİŞİM</span>
+          <p>
+            Satın almış olduğunuz ürünleri
+            <strong>14 gün içerisinde </strong> koşulsuz iade ve değişim
+            yapabilirsiniz
+          </p>
+        </div>
+        <div class="box">
+          <img src="assets/package.png" alt="" class="size" />
+          <span>ÜCRETSİZ KARGO</span>
+          <p>
+            150 tl ve üzeri alışverişinizde
+            <strong>ücretsiz kargo</strong> gönderimi yapılmaktadır.
+          </p>
+        </div>
+        <div class="box">
+          <img src="assets/truckwithclock.png" alt="" class="size" />
+          <span>AYNI GÜN KARGO</span>
+          <p>
+            Saat 16:00'a kadar vermiş olduğunuz siparişler
+            <strong>aynı gün kargoda.</strong>
+          </p>
+        </div>
+        <div class="box">
+          <img src="assets/reward.png" alt="" class="size" />
+          <span>%100 ORJİNAL ÜRÜN</span>
+          <p>
+            Sitemizden satın alacağınız tüm ürünler
+            <strong>100% orjinaldir.</strong>
+          </p>
+        </div>
+      </div>
+      <div class="line center">
+        <p>Vade Farksız Taksit İmkanı</p>
+      </div>
+      <div class="credit-cards">
+        <ul class="line card-center">
+          <li>
+            <img src="assets/bonus.png" alt="" />
+          </li>
+          <li>
+            <img src="assets/axess.png" alt="" />
+          </li>
+          <li>
+            <img src="assets/card_finans.png" alt="" />
+          </li>
+          <li>
+            <img src="assets/bkm_express.png" alt="" />
+          </li>
+          <li>
+            <img src="assets/world.png" alt="" />
+          </li>
+          <li>
+            <img src="assets/paraf.png" alt="" />
+          </li>
+          <li>
+            <img src="assets/bankkartcombo.png" alt="" />
+          </li>
+          <li>
+            <img src="assets/maximum.png" alt="" />
+          </li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <p>MARKAFİLL ile Trendleri Takip Et!</p>
+        <i class="fa-solid fa-chevron-down fa-2x"></i>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>KURUMSAL</h4>
+            <ul>
+              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="#">Kullanıcı Sözleşmesi</a></li>
+              <li><a href="#">Gizlilik ve Güvenlik</a></li>
+              <li><a href="#">Bilgi Toplumu Hizmetleri</a></li>
+              <li><a href="#">KVKK</a></li>
+              <li><a href="#">İletişim</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>MÜŞTERİ HİZMETLERİ</h4>
+            <ul>
+              <li><a href="#">Sıkça Sorulan Sorular</a></li>
+              <li><a href="#">İade ve Değişim</a></li>
+              <li><a href="#">Garanti Şartları</a></li>
+              <li><a href="#">Teslimat Koşulları</a></li>
+              <li><a href="#">Site Güvenliği</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>HESABIM</h4>
+            <ul>
+              <li><a href="#">Üye Girişi</a></li>
+              <li><a href="#">Yeni Üyelik</a></li>
+              <li><a href="#">Favorilerim</a></li>
+              <li><a href="#">Sepetim</a></li>
+              <li><a href="#">Siparişlerim</a></li>
+              <li><a href="#">Kargo İşlemleri</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>KATEGORİLER</h4>
+            <ul>
+              <li><a href="#">Kadın</a></li>
+              <li><a href="#">Erkek</a></li>
+              <li><a href="#">Çocuk</a></li>
+              <li><a href="#">Ayakkabı</a></li>
+              <li><a href="#">Çanta</a></li>
+              <li><a href="#">Markalar</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>SOSYAL MEDYA</h4>
+            <div class="social-links">
+              <!-- <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a> -->
+              <a href="#"><img src="assets/facebook.png" alt="" /></a>
+              <a href="#"><img src="assets/instagram.png" alt="" /></a>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, facilis.
+              </p>
+              <h4 class="gap">BÜLTEN ABONELİĞİ</h4>
+              <div class="eMail">
+                <span>e-posta adresiniz</span>
+                <span>ABONE OL</span>
+              </div>
+              <p class="gap">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis, facilis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row footerCards">
+        <div class="footer-left">
+          <a href=""><img src="assets/visa.png" alt="" /></a>
+          <a href=""><img src="assets/mastercard.png" alt="" /></a>
+          <a href=""><img src="assets/ssl.png" alt="" /></a>
+        </div>
+        <div class="footer-right">
+          <span class="footer-sign">FATİH</span>
+        </div>
+      </div>
+      <div class="row footer-brand">
+        <a href=""><img src="assets/dijitall.png" alt="" /></a>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      // Head Slider
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      // Next/previous controls
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+      // Urun Carousel
+      $(".owl-carousel").owlCarousel({
+        margin: 15,
+        nav: true,
+        navText: [
+          "<div class='nav-button owl-prev'>‹</div>",
+          "<div class='nav-button owl-next'>›</div>",
+        ],
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+          1200: {
+            items: 4,
+          },
+          1500: {
+            items: 5,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

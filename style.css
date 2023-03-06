@@ -1,0 +1,2368 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* navbar image */
+.topNav {
+  background-image: url("./assets/top_header.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 50px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+
+.left-side {
+  display: flex;
+  width: 60%;
+  background-color: #f47121;
+  color: #fff;
+}
+
+.left-side h5 {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 14px;
+}
+
+.right-side {
+  display: flex;
+  min-width: 40%;
+  background-color: black;
+}
+
+.right-side ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.right-side ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.right-side ul li img {
+  width: 25px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* header center */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  color: black;
+  padding: 20px 0;
+}
+
+.item {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  color: var(--theme-color);
+}
+
+.item.right {
+  margin: 0 0 0 auto;
+}
+
+.navbar .logo {
+  font-size: 1.2em;
+  align-items: center;
+  display: flex;
+}
+
+.logo img {
+  max-width: 40px;
+}
+.item.search {
+  transition: 0.2s linear;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.item.search .search-icon {
+  border-left: 1px solid grey;
+  margin: 2px;
+  padding-left: 10px;
+  cursor: pointer;
+  color: grey;
+}
+.item.search .search-icon:hover {
+  color: black;
+}
+
+.item.search input {
+  width: 100%;
+  padding: 19px 14px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0) !important;
+  max-width: 100%;
+  border: 0;
+}
+
+.item.search input::placeholder {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
+
+/* .item.search input:focus {
+  padding-left: 40px;
+} */
+
+.item .search-group {
+  display: flex;
+  width: 100%;
+  max-width: 550px;
+  overflow: hidden;
+  background: white;
+  color: var(--theme-color);
+  position: relative;
+}
+
+.search-group .fa-solid.fa-magnifying-glass {
+  position: absolute;
+  top: 50%;
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+.search-group input::placeholder {
+  color: #7e7e7e;
+  padding-left: 35px;
+}
+
+.btn {
+  padding: 10px 25px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.item .group {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.item .group .sub {
+  font-size: 0.8em;
+}
+
+.material-icons {
+  font-size: 1.8rem;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* header center */
+
+.rightItems {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-right: 30px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.rightItems li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.rightItems li img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 3px;
+}
+
+.header-bottom {
+  background-color: #000;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-bottom ul {
+  display: flex;
+  color: #fff;
+  gap: 20px;
+}
+
+.header-bottom ul li {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.brandBtn {
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  padding: 8px 14px;
+  font-weight: bolder;
+  border: none;
+  margin-left: 20px;
+}
+
+.fa-solid.fa-chevron-down {
+  padding-left: 8px;
+}
+
+/* categories */
+.categories {
+  display: flex;
+  margin: 30px 0;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  gap: 3px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.categories-box {
+  height: 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.categories-box img {
+  height: 50%;
+  width: 30%;
+  margin-top: 27px;
+}
+.categories div:nth-last-child(3) img {
+  height: 35%;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+::selection {
+  background: rgba(23, 162, 184, 0.3);
+}
+.wrapper {
+  margin: 15px 140px;
+}
+.wrapper header {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.wrapper nav {
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.wrapper nav label {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: rgb(226, 223, 223);
+  transition: all 0.3s ease;
+}
+
+#günlük:checked ~ nav label.günlük,
+#spor:checked ~ nav label.spor,
+#kadin:checked ~ nav label.kadin,
+#erkek:checked ~ nav label.erkek,
+#cocuk:checked ~ nav label.cocuk,
+#ayakkabi:checked ~ nav label.ayakkabi,
+#canta:checked ~ nav label.canta,
+#aksesuar:checked ~ nav label.aksesuar {
+  background-color: rgb(250, 110, 29);
+  color: #fff;
+}
+nav label i {
+  padding-right: 7px;
+}
+nav .slider {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+}
+.wrapper input[type="radio"] {
+  display: none;
+}
+
+.wrapper section .content1 {
+  display: none;
+  background: #fff;
+}
+#günlük:checked ~ section .content-1a,
+#spor:checked ~ section .content-1b,
+#kadin:checked ~ section .content-1c,
+#erkek:checked ~ section .content-1d,
+#cocuk:checked ~ section .content-1e,
+#ayakkabi:checked ~ section .content-1f,
+#canta:checked ~ section .content-1g,
+#aksesuar:checked ~ section .content-1h {
+  display: block;
+}
+section .content1 .title {
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+section .content1 p {
+  text-align: justify;
+}
+
+/* bottom navigation */
+.bottom-nav {
+  margin: 30px 140px;
+  font-family: "League Spartan", sans-serif;
+}
+.bottom-nav span {
+  font-weight: 600;
+}
+.bottom-nav p {
+  font-size: 14px;
+}
+
+.box {
+  width: 20%;
+  height: 130px;
+  border: 1px solid rgb(179, 176, 176);
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.center {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line.center {
+  margin-top: 30px;
+}
+.line.card-center {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.center p {
+  font-size: 33px;
+  font-weight: 500;
+}
+
+.size {
+  width: 32px;
+  height: 32px;
+}
+.credit-cards {
+  margin-bottom: 40px;
+}
+.credit-cards img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  border: 1px solid rgb(179, 176, 176);
+}
+.dropdown p {
+  font-size: 41px;
+  margin-left: 30px;
+  font-weight: 600;
+}
+.dropdown i {
+  margin-right: 20px;
+}
+
+/* footer */
+.container {
+  max-width: 1570px;
+  margin: 0 30px 30px;
+  font-family: "League Spartan", sans-serif;
+}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.footer {
+  background-color: #24262b;
+  padding: 40px 0 0;
+}
+.footer-col {
+  width: 20%;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+}
+.gap {
+  margin-top: 10px;
+  margin-bottom: 5px !important;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 1px;
+}
+.footer-col ul li a {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 0 10px 10px 0;
+  border-radius: 50%;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+.footer-col .social-links p {
+  color: #bbbbbb;
+}
+.footer-col .social-links .eMail {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 15px 5px;
+}
+.footer-col .social-links .eMail span {
+  color: #ffffff;
+}
+
+/* for cursor:pointer */
+li,
+img {
+  cursor: pointer;
+}
+
+/*responsive*/
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+.footer-col a {
+  display: inline-block;
+
+  margin: 0 10px 10px 0;
+  border-radius: 50%;
+}
+.footerCards {
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 140px;
+  align-items: center;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-sign {
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer-brand {
+  background-color: #fff;
+  float: right;
+  margin-right: 140px;
+}
+
+/* Head Slider */
+
+.slideshow-container {
+  position: relative;
+  margin: 27px auto 70px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.slider {
+  position: relative;
+}
+
+.slider-badget {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.slider-desc {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  color: rgb(243, 114, 40);
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+}
+
+.slider-indirim {
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+
+.slider-perc {
+  display: flex;
+  align-items: center;
+}
+
+.slider-amount {
+  font-size: 195px;
+  font-weight: 800;
+  font-family: "League Spartan", sans-serif;
+}
+
+.slider-varan {
+  display: flex;
+  flex-direction: column;
+  font-size: 68px;
+  font-weight: 800;
+}
+
+.slider-alisveris {
+  position: absolute;
+  bottom: 98px;
+  left: 54px;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 28px 91px;
+  font-size: 23px;
+  font-family: "League Spartan", sans-serif;
+  cursor: pointer;
+}
+
+/* Item CSS */
+.item {
+  font-family: "League Spartan", sans-serif;
+}
+
+.tab-image {
+  position: relative;
+}
+
+.image-new {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(27, 170, 27);
+  font-family: "League Spartan", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 9px;
+}
+
+.image-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(255, 255, 255);
+  color: orange;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.tab-brand {
+  margin: 7px 0;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.tab-desc {
+  display: flex;
+  flex-direction: column;
+  color: rgb(77, 75, 75);
+  margin-bottom: 25px;
+}
+
+.tab-price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.uprice-old {
+  color: rgb(173, 171, 171);
+  font-size: 17px;
+  text-decoration: line-through;
+}
+
+.uprice-new {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 4px;
+}
+
+.tab-perc {
+  background-color: rgb(212, 25, 25);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 8px 5px 8px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.tab-perc::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-right: 20px solid rgb(212, 25, 25);
+  z-index: 0;
+}
+
+.tab-color {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-colors {
+  display: flex;
+  align-items: center;
+}
+
+.tab-colors span {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.tab-colors .white {
+  width: 19px;
+  height: 19px;
+  background-color: #fff;
+  border: 1px solid rgb(212, 199, 199);
+  margin-right: 5px;
+}
+
+.tab-colors .red {
+  width: 19px;
+  height: 19px;
+  background-color: #f00;
+  margin-right: 5px;
+}
+
+.tab-colors .blue {
+  width: 19px;
+  height: 19px;
+  background-color: #00f;
+  margin-right: 5px;
+}
+
+.tab-colors .brown {
+  width: 19px;
+  height: 19px;
+  background-color: rgb(99, 67, 67);
+  margin-right: 5px;
+}
+
+.item {
+  position: relative;
+}
+
+.tab-button {
+  text-align: center;
+  padding-top: 21px;
+}
+
+.tab-incele {
+  color: rgb(243, 114, 40);
+  border: 2px solid rgb(243, 114, 40);
+  padding: 15px 59px;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.kargo {
+  background-color: rgb(100, 97, 97);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 8px 10px;
+  border-radius: 2px;
+}
+
+/* Urun Category */
+.urun-category {
+  margin: 70px 0 85px;
+  text-align: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: 42px;
+}
+
+.urun-cat-old {
+  margin-left: 35px;
+}
+
+.urun-cat-yeni {
+  margin-right: 35px;
+  font-weight: 600;
+}
+
+/* Urun Carousel */
+.carousel-wrapper {
+  position: relative;
+}
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0px;
+}
+.owl-theme .owl-dots {
+  display: none;
+}
+
+.owl-carousel .nav-button {
+  height: 50px;
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  top: 30% !important;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.25;
+}
+.owl-carousel .owl-prev {
+  left: 4px;
+}
+.owl-carousel .owl-next {
+  right: 10px;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  font-size: 39px;
+}
+
+.nav-button {
+  color: rgb(247 90 0) !important;
+  font-size: 70px !important;
+  background: none !important;
+}
+
+.item2 img {
+  padding: 5px;
+  border: 1px solid rgb(201, 195, 195);
+  border-radius: 6px;
+}
+
+/* Tab Slide */
+::selection {
+  background: rgba(23, 162, 184, 0.3);
+}
+.wrapper2 {
+  margin: 40px 140px;
+  cursor: pointer;
+}
+.wrapper2 header {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.wrapper2 nav {
+  position: relative;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 130px;
+}
+.wrapper2 nav label {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  color: #000;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+#mavi:checked ~ nav label.mavi,
+#jones:checked ~ nav label.jones,
+#puma:checked ~ nav label.puma,
+#skechers:checked ~ nav label.skechers,
+#loft:checked ~ nav label.loft,
+#polo:checked ~ nav label.polo {
+  color: #fff;
+}
+nav label i {
+  padding-right: 7px;
+}
+nav .slider {
+  position: absolute;
+  height: 100%;
+  width: 20%;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 5px;
+}
+.wrapper2 input[type="radio"] {
+  display: none;
+}
+#jones:checked ~ nav .slider {
+  left: 16.6%;
+}
+#puma:checked ~ nav .slider {
+  left: 33%;
+}
+#skechers:checked ~ nav .slider {
+  left: 50%;
+}
+#loft:checked ~ nav .slider {
+  left: 66.6%;
+}
+#polo:checked ~ nav .slider {
+  left: 83%;
+}
+.wrapper2 section .content2 {
+  display: none;
+  background: #fff;
+}
+#mavi:checked ~ section .content-2a,
+#jones:checked ~ section .content-2b,
+#puma:checked ~ section .content-2c,
+#skechers:checked ~ section .content-2d,
+#loft:checked ~ section .content-2e,
+#polo:checked ~ section .content-2f {
+  display: block;
+}
+section .content .title {
+  font-size: 21px;
+  font-weight: 500;
+  margin: 30px 0 10px 0;
+}
+section .content p {
+  text-align: justify;
+}
+
+.mavi img,
+.jones img,
+.sketchers img,
+.puma img,
+.loft img,
+.polo img {
+  width: 100%;
+}
+
+.jones {
+  padding-top: 15px;
+  padding-left: 32px;
+}
+
+.sketchers {
+  padding-top: 10px;
+}
+
+.loft {
+  padding-top: 13px;
+}
+
+.polo {
+  padding-right: 17px;
+}
+
+/* Giyim */
+.giyim {
+  margin: 65px 140px 0;
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.giyim-gender {
+  position: relative;
+}
+
+.giyim-types {
+  position: absolute;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 40px;
+  font-weight: 600;
+}
+.giyim-types div {
+  cursor: pointer;
+}
+
+.giyim-types div {
+  background-color: rgb(255, 255, 255, 0.75);
+  padding: 23px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Clothes */
+.clothes {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 140px 0;
+}
+
+.clothes-types {
+  position: relative;
+}
+
+.clothes-desc {
+  font-family: "League Spartan", sans-serif;
+  background-color: rgb(255, 255, 255, 0.75);
+  padding: 11px 25px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: inline-table;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* Afişler */
+.afisler {
+  padding: 0 140px;
+  margin: 100px 0 25px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.afisler img {
+  width: 100%;
+}
+
+.inner-text {
+  position: absolute;
+  display: flex;
+  font-size: 57px;
+  align-items: center;
+}
+
+.inner-text img {
+  width: 80%;
+}
+
+.afisler-indirim {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 38px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.afisler-sepette {
+  font-size: 54px;
+}
+
+.afisler-price {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.afisler-yuzde {
+  display: flex;
+  align-items: center;
+}
+
+.afisler-price span {
+  font-size: 110px;
+  font-weight: 900;
+}
+
+.afisler-varan {
+  line-height: 1.1;
+}
+
+/* loft banner */
+.loftS {
+  margin: 0 140px;
+}
+.loft-row {
+  display: flex;
+  width: 100%;
+  gap: 21px;
+  margin-bottom: 19px;
+}
+.loft-row img {
+  width: 100%;
+}
+
+.box-bg {
+  height: 100%;
+}
+
+.loft-box {
+  position: relative;
+}
+
+.cover {
+  width: 50%;
+}
+
+.loft-indirim {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 50px;
+  bottom: 80px;
+}
+
+.loft-sepette {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.loft-price {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.loft-yuzde {
+  display: flex;
+  align-items: center;
+}
+
+.loft-price span {
+  font-size: 110px;
+  font-weight: 900;
+}
+
+.loft-varan {
+  line-height: 1.1;
+}
+
+#loft-logo {
+  position: absolute;
+  right: 14px;
+  top: 17px;
+  width: 10%;
+}
+
+/* jack & jones  */
+.jones-box {
+  position: relative;
+}
+
+.jones-indirim {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #3d4047;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 10px;
+  bottom: 90px;
+}
+
+.jones-sepette {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.jones-price {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+}
+
+.jones-yuzde {
+  display: flex;
+  align-items: center;
+}
+
+.jones-price span {
+  font-size: 90px;
+  font-weight: 800;
+}
+
+.jones-varan {
+  line-height: 1.1;
+  font-size: 32px;
+}
+
+#jones-logo {
+  position: absolute;
+  left: 14px;
+  bottom: 17px;
+  width: 23%;
+}
+
+/* text row */
+.text-box {
+  display: flex;
+  flex-direction: column;
+  font-family: "League Spartan", sans-serif;
+}
+.text-box span {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.text-box u {
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* Puma */
+.pumaS {
+  margin: 100px 140px 25px;
+  position: relative;
+}
+
+.puma-bg {
+  width: 100%;
+}
+
+.plogo {
+  position: absolute;
+  width: 9%;
+  bottom: 45px;
+  left: 45px;
+}
+
+.types {
+  position: absolute;
+  display: flex;
+  gap: 18px;
+  bottom: 44px;
+  right: 54px;
+}
+
+.types div {
+  font-family: "League Spartan", sans-serif;
+  background-color: rgba(236, 236, 236, 0.817);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 18px 52px;
+}
+
+/* Ayakkabı */
+.ayakkabı {
+  margin: 0 140px;
+  display: flex;
+  font-family: "League Spartan", sans-serif;
+  gap: 20px;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.ayakkabı-indirim {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 17px;
+}
+
+.ayakkabı-tekil {
+  display: flex;
+  flex-direction: column;
+}
+
+.ayakkabı-tekil img {
+  width: 100%;
+}
+
+.ayakkabı-desc {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.ayakkabı-fiyat {
+  display: flex;
+  margin-top: 12px;
+}
+
+.ayakkabı-yüzde {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(219, 25, 25);
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.ayakkabı-para {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.para-old {
+  color: grey;
+  text-decoration: line-through;
+  margin-bottom: 4px;
+}
+
+.para-new {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.ayakkabı-right {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: flex-end;
+}
+
+.ayakkabı-cogul,
+.ayakkabı-futbol {
+  position: relative;
+}
+
+.ayakkabı-cogul img,
+.ayakkabı-futbol img {
+  width: 100%;
+}
+
+.cogul-desc {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: #fff;
+  width: 48%;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.cogul-desc span:first-child {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.futbol-desc {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 26px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #fff;
+  width: 52%;
+  font-size: 11px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-align: center;
+}
+
+.futbol-desc span:first-child {
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+
+.futbol-button {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: rgb(207, 206, 206);
+  display: inline-table;
+  padding: 18px 25px;
+  font-size: 13px;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
+
+/* Sneakers */
+.sneakers {
+  margin: 0 140px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.sneakers img {
+  width: 100%;
+}
+
+.sneakers-types {
+  position: absolute;
+  display: flex;
+  gap: 18px;
+  bottom: 44px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.sneakers-types div {
+  font-family: "League Spartan", sans-serif;
+  background-color: rgba(83, 79, 79, 0.817);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 17px 55px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.puma img {
+  width: 60%;
+}
+
+.sketchers img {
+  width: 70%;
+}
+
+.loft img {
+  width: 50%;
+}
+
+.polo {
+  width: 80%;
+}
+
+.wrapper2 nav {
+  gap: 15px;
+}
+
+.afisler-indirim {
+  padding-left: 140px;
+}
+
+@media screen and (max-width: 1800px) {
+  .giyim-gender img {
+    width: 100%;
+  }
+
+  .clothes-types img {
+    width: 100%;
+  }
+
+  .slider-desc {
+    font-size: 4.2rem;
+  }
+
+  .slider-amount {
+    font-size: 10.5rem;
+  }
+
+  .slider-varan {
+    font-size: 3.3rem;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .slider-desc {
+    font-size: 3rem;
+  }
+
+  .slider-amount {
+    font-size: 9rem;
+  }
+
+  .slider-varan {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .categories-box {
+    height: 130px;
+  }
+  .slider-desc {
+    font-size: 2.6rem;
+  }
+
+  .slider-amount {
+    font-size: 8rem;
+  }
+
+  .slider-varan {
+    font-size: 2rem;
+  }
+
+  .slider-alisveris {
+    padding: 20px 45px;
+  }
+
+  .afisler-indirim {
+    padding-left: 65px;
+  }
+
+  .loft-indirim {
+    font-size: 30px;
+  }
+
+  .loft-sepette {
+    font-size: 25px;
+  }
+
+  .loft-price span {
+    font-size: 80px;
+  }
+
+  .jones-indirim {
+    font-size: 25px;
+  }
+
+  .jones-sepette {
+    font-size: 20px;
+  }
+
+  .jones-price span {
+    font-size: 65px;
+  }
+
+  .jones-varan {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .slider-desc {
+    top: 84px;
+  }
+
+  .inner-text img {
+    width: 37%;
+  }
+
+  .afisler-indirim {
+    font-size: 28px;
+  }
+
+  .afisler-sepette {
+    font-size: 40px;
+  }
+
+  .afisler-price span {
+    font-size: 90px;
+  }
+
+  .loft-indirim {
+    right: 30px;
+    bottom: 50px;
+    font-size: 25px;
+  }
+
+  .loft-sepette {
+    font-size: 20px;
+  }
+
+  .loft-price span {
+    font-size: 65px;
+  }
+
+  .jones-indirim {
+    bottom: 50px;
+    font-size: 20px;
+  }
+
+  .jones-sepette {
+    font-size: 20px;
+  }
+
+  .jones-price span {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .jones {
+    padding-top: 0;
+    padding-left: 10px;
+  }
+  .slider-desc {
+    font-size: 2rem;
+  }
+
+  .slider-amount {
+    font-size: 7rem;
+  }
+
+  .slider-varan {
+    font-size: 1.7rem;
+  }
+
+  .slider-alisveris {
+    font-size: 1rem;
+    padding: 15px 37px;
+  }
+
+  .categories-box {
+    height: 110px;
+  }
+
+  .günlük .categories-box span {
+    font-size: 0.8rem;
+  }
+
+  .afisler-indirim {
+    font-size: 24px;
+  }
+
+  .afisler-sepette {
+    font-size: 32px;
+  }
+
+  .afisler-price span {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .urun-category {
+    margin: 40px 0 50px;
+  }
+  .wrapper2 nav {
+    margin-bottom: 50px;
+  }
+  .slider-alisveris {
+    font-size: 1rem;
+    padding: 15px 37px;
+    bottom: 4rem;
+  }
+
+  .giyim-types {
+    font-size: 10px;
+  }
+
+  .giyim-types div {
+    padding: 10px 0;
+  }
+
+  .loft-indirim {
+    font-size: 18px;
+  }
+
+  .loft-sepette {
+    font-size: 15px;
+  }
+
+  .loft-price span {
+    font-size: 50px;
+  }
+
+  .jones-indirim {
+    font-size: 15px;
+  }
+
+  .jones-sepette {
+    font-size: 11px;
+  }
+
+  .jones-price span {
+    font-size: 40px;
+  }
+
+  .jones-varan {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .slider-desc {
+    top: 70px;
+  }
+
+  .slider-alisveris {
+    font-size: 0.8rem;
+    padding: 12px 30px;
+  }
+
+  .günlük .categories-box span {
+    font-size: 0.5rem;
+  }
+
+  .dropdown p {
+    font-size: 30px;
+  }
+
+  .urun-category {
+    font-size: 30px;
+  }
+
+  .loft-indirim {
+    bottom: 20px;
+    right: 15px;
+  }
+
+  .jones-indirim {
+    bottom: 30px;
+  }
+
+  .ayakkabı {
+    flex-flow: wrap;
+  }
+
+  .types div {
+    font-size: 12px;
+    padding: 10px 25px;
+  }
+
+  .line.center p {
+    font-size: 25px;
+  }
+
+  .box span {
+    font-size: 12px;
+  }
+
+  .wrapper2 nav {
+    margin-bottom: 80px;
+  }
+  .ayakkabı-cogul {
+    margin: 15px 0 25px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ayakkabı-futbol {
+    margin-bottom: 25px;
+  }
+  .wrapper2 {
+    margin: 40px 80px;
+  }
+  .giyim {
+    margin: 65px 80px 0;
+  }
+  .clothes {
+    margin: 60px 80px 0;
+  }
+  .afisler {
+    padding: 0;
+    margin: 60px 80px 40px;
+  }
+  .loftS {
+    margin: 0 80px;
+  }
+  .pumaS {
+    margin: 70px 80px 40px;
+  }
+  .ayakkabı {
+    margin: 0 80px;
+    gap: 40px;
+  }
+  .ayakkabı-indirim {
+    gap: 50px;
+  }
+  .slider-amount {
+    font-size: 5.5rem;
+  }
+  .slider-desc {
+    top: 50px;
+  }
+
+  .wrapper nav label {
+    font-size: 11px;
+  }
+
+  .categories-box {
+    height: 60px;
+  }
+
+  .giyim-types {
+    font-size: 7px;
+  }
+
+  .giyim-types div {
+    padding: 7px 0;
+  }
+
+  .footer-col h4 {
+    font-size: 12px;
+  }
+
+  .footer-col ul li a {
+    font-size: 8px;
+  }
+
+  .loft-indirim {
+    font-size: 13px;
+  }
+
+  .loft-sepette {
+    font-size: 11px;
+  }
+
+  .loft-price span {
+    font-size: 35px;
+  }
+
+  .jones-indirim {
+    font-size: 10px;
+  }
+
+  .jones-sepette {
+    font-size: 8px;
+  }
+
+  .jones-price span {
+    font-size: 30px;
+  }
+
+  .jones-varan {
+    font-size: 11px;
+  }
+
+  .futbol-button {
+    padding: 10px 10px;
+    font-size: 10px;
+  }
+
+  .sneakers-types {
+    bottom: 10px;
+  }
+
+  .sneakers-types div {
+    font-size: 12px;
+    padding: 10px 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .slider-desc {
+    font-size: 1.5rem;
+  }
+
+  .slider-amount {
+    font-size: 3.7rem;
+  }
+
+  .slider-varan {
+    font-size: 1.2rem;
+  }
+
+  .slider-alisveris {
+    padding: 10px 22px;
+  }
+
+  .dropdown p {
+    font-size: 18px;
+  }
+
+  .header-bottom {
+    font-size: 0.6rem;
+  }
+  .brandBtn {
+    font-size: 0.6rem;
+  }
+
+  .footer-col .social-links p {
+    font-size: 0.6rem;
+  }
+
+  .loft-indirim {
+    font-size: 10px;
+  }
+
+  .loft-sepette {
+    font-size: 8px;
+  }
+
+  .loft-price span {
+    font-size: 30px;
+  }
+
+  .jones-indirim {
+    font-size: 7px;
+  }
+
+  .jones-sepette {
+    font-size: 5px;
+  }
+
+  .jones-price span {
+    font-size: 23px;
+  }
+
+  .jones-varan {
+    font-size: 7px;
+  }
+
+  .types {
+    bottom: 20px;
+    right: 35px;
+  }
+
+  .types div {
+    font-size: 8px;
+    padding: 7px 17px;
+  }
+
+  .plogo {
+    bottom: 30px;
+    left: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .inner-text img {
+    width: 30%;
+  }
+  .inner-text {
+    justify-content: center;
+  }
+  .slider-desc {
+    top: 40px;
+    left: 55px;
+  }
+
+  .slider-alisveris {
+    padding: 10px 22px;
+    bottom: 3rem;
+  }
+
+  .giyim-types {
+    font-size: 4px;
+    gap: 5px;
+  }
+
+  .giyim-types div {
+    padding: 3px 0;
+  }
+
+  .loft-indirim {
+    font-size: 7px;
+    bottom: 10px;
+  }
+
+  .loft-sepette {
+    font-size: 6px;
+  }
+
+  .loft-price span {
+    font-size: 20px;
+  }
+
+  .jones-indirim {
+    font-size: 7px;
+  }
+
+  .jones-sepette {
+    font-size: 5px;
+  }
+
+  .jones-price span {
+    font-size: 16px;
+  }
+
+  .jones-varan {
+    font-size: 5px;
+  }
+
+  .wrapper {
+    margin: 15px 60px;
+  }
+
+  .wrapper2 {
+    margin: 40px 60px 15px;
+  }
+
+  .sneakers-types {
+    bottom: 8px;
+  }
+
+  .sneakers-types div {
+    font-size: 8px;
+    padding: 7px 16px;
+  }
+
+  .giyim {
+    margin: 0 60px 35px;
+  }
+
+  .clothes {
+    margin: 30px 60px 0;
+  }
+
+  .afisler {
+    margin: 30px 60px 40px;
+  }
+
+  .loftS {
+    margin: 0 60px;
+  }
+
+  .afisler-indirim {
+    font-size: 18px;
+  }
+
+  .afisler-sepette {
+    font-size: 25px;
+  }
+
+  .afisler-price span {
+    font-size: 60px;
+  }
+
+  .pumaS {
+    margin: 100px 60px 25px;
+  }
+
+  .ayakkabı {
+    margin: 0 60px;
+  }
+
+  .sneakers {
+    margin: 25px 60px;
+  }
+
+  .header-bottom ul {
+    gap: 10px;
+  }
+
+  .brandBtn {
+    margin-left: 0;
+    font-size: 0.4rem;
+  }
+
+  .header-bottom {
+    font-size: 0.35rem;
+  }
+
+  .item.search input {
+    padding: 10px 14px;
+  }
+
+  .rightItems li {
+    margin: 0;
+  }
+
+  .bottom-nav {
+    margin: 30px 60px;
+  }
+
+  .wrapper2 nav {
+    margin-bottom: 25px;
+  }
+
+  .urun-category {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .afisler-indirim {
+    font-size: 13px;
+  }
+  .afisler-sepette {
+    font-size: 18px;
+  }
+  .afisler-price span {
+    font-size: 45px;
+  }
+  .sketchers {
+    padding-top: 0;
+  }
+
+  .loft {
+    padding-top: 0;
+  }
+  .slideshow-container {
+    margin-bottom: 20px;
+  }
+  .wrapper2 {
+    margin-top: 15px;
+  }
+  .urun-category {
+    font-size: 18px;
+  }
+
+  .slider-desc {
+    font-size: 1rem;
+  }
+
+  .slider-amount {
+    font-size: 2.4rem;
+  }
+
+  .slider-varan {
+    font-size: 0.7rem;
+  }
+
+  .slider-alisveris {
+    padding: 7px 14px;
+  }
+
+  .dropdown p {
+    font-size: 14px;
+  }
+
+  .loft-indirim {
+    bottom: 6px;
+    right: 5px;
+  }
+
+  .loft-sepette {
+    font-size: 6px;
+  }
+
+  .loft-price span {
+    font-size: 13px;
+  }
+
+  .loft-varan {
+    font-size: 5px;
+  }
+
+  .jones-indirim {
+    font-size: 7px;
+    top: 7px;
+    left: 5px;
+  }
+
+  .jones-sepette {
+    font-size: 5px;
+  }
+
+  .jones-price span {
+    font-size: 11px;
+  }
+
+  .jones-varan {
+    font-size: 5px;
+  }
+
+  .types div {
+    font-size: 6px;
+    padding: 4px 10px;
+  }
+  .right-side {
+    font-size: 10px;
+  }
+
+  .bottom-nav p {
+    font-size: 8px;
+  }
+
+  .box span {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .inner-text img {
+    width: 20%;
+  }
+  .afisler-indirim {
+    padding-left: 30px;
+  }
+  .afisler-sepette {
+    font-size: 14px;
+  }
+  .afisler-indirim {
+    font-size: 9px;
+  }
+  .afisler-price span {
+    font-size: 32px;
+  }
+  .pumaS {
+    margin-top: 50px;
+  }
+  .ayakkabı-indirim {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .giyim-types {
+    gap: 1px;
+    bottom: 12px;
+  }
+  .giyim-types div {
+    padding: 0;
+  }
+  .text-box span {
+    font-size: 13px;
+  }
+  .text-box u {
+    font-size: 11px;
+  }
+  .clothes-desc {
+    font-size: 7px;
+    padding: 5px 10px;
+  }
+  .footer-col h4 {
+    font-size: 8px;
+  }
+
+  .footer-col ul li a {
+    font-size: 5px;
+  }
+
+  .footer-col .social-links p {
+    font-size: 0.4rem;
+  }
+
+  .footer-col .social-links .eMail {
+    padding: 0;
+    font-size: 7px;
+  }
+
+  .categories-box {
+    font-size: 7px;
+  }
+
+  .cogul-desc {
+    font-size: 5px;
+    bottom: 10px;
+  }
+
+  .cogul-desc span:first-child {
+    font-size: 8px;
+  }
+
+  .futbol-desc span:first-child {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .futbol-desc {
+    font-size: 5px;
+    top: 10px;
+  }
+
+  .futbol-button {
+    font-size: 7px;
+    padding: 7px 7px;
+    bottom: 15px;
+  }
+
+  .center p {
+    font-size: 20px;
+  }
+
+  .credit-cards {
+    margin-bottom: 15px;
+  }
+
+  .line.card-center {
+    margin-bottom: 0;
+  }
+
+  .bottom-nav p {
+    font-size: 6px;
+  }
+
+  .box span {
+    font-size: 7px;
+  }
+
+  .line.center p {
+    font-size: 15px;
+  }
+
+  .urun-category {
+    font-size: 10px;
+  }
+  .slider-desc {
+    top: 25px;
+    left: 40px;
+  }
+  .slider-alisveris {
+    font-size: 0.5rem;
+    padding: 4px 7px;
+    left: 45px;
+    bottom: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .afisler-sepette {
+    font-size: 10px;
+  }
+  .afisler-indirim {
+    font-size: 7px;
+  }
+  .afisler-price span {
+    font-size: 27px;
+  }
+
+  .dropdown {
+    height: 40px;
+  }
+
+  .slider-desc {
+    top: 25px;
+    left: 40px;
+  }
+  .slider-alisveris {
+    bottom: 1.4rem;
+  }
+}
